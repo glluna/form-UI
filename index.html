@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Form UI</title>
+
 </head>
+
 <body>
+
+    <form>
+
+        <section class="container">
+
+            <div class="nome">
+            <label for="user">Nome Completo
+                <input type="text" id="user"  name="nome completo" placeholder="Como você se chama ?" required aria-required="true"/>
+            </label>
+            </div>
+            
+            <div class="mail">
+            <label for="email">Email
+                <input type="email" id="email" name="Email" placeholder="joao@gmail.com" required aria-required="true"/>
+            </label>
+            </div>
+
+            <div class="senha">
+            <label for="pass">Digite a senha
+                <input type="password" id="pass" name="password" required aria-required="true"/>
+            </label>
+            </div>
+
+            <div class="confirmar">
+            <label for="confirm-pass">Confirme a senha
+                <input type="password" id="confirm-pass" name="password" required aria-required="true"/>
+            </label>
+            </div>
+
+           <button type="submit" id="btn">Criar Conta</button>
+
+        </section>
+
+        <section class="container-section">
+            <div class="progresso-circular">
+                <div class="circulo-interno">
+                    <span class="porcentagem">65%</span>
+                </div>
+            </div>
+        </section>
+
+        <h3>Integridade do Perfil</h3>
+        <ol class="lista">
+            <li class="feito">Criar Conta</li>
+            <li class="feito">Atualizar Progresso</li>
+            <li class="feito">Configurar perfil público</li>
+            <li>Completar o seu primeiro porjeto</li>
+        </ol>
+
+    </form>
     
 </body>
+
 </html>
