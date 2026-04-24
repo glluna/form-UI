@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 600px;
+    border: 2px solid #111;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    gap: 15px;
+}
+
+.nome {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.confirmar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 200px;
+    border: 2px solid#111;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btn {
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    background-color: #111;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.porcentagem-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+
+.titulo-lista {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.circulo {
+    border: solid #111;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 32px;  
+    font-weight: 700;
+}
+
+.container-lista {
+    height: 150px;
+    width: 200px;
+    background-color: rgba(130, 124, 124, 0.392);
+    border-radius: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feito {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+    text-align: left;
+
+
+}
+
+.a-fazer {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
